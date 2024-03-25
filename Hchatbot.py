@@ -8,9 +8,9 @@ import warnings
 warnings.filterwarnings('ignore')
 lemmatizer = nltk.stem.WordNetLemmatizer()
 
-# nltk.download('stopwords')
-# nltk.download('punkt')
-# nltk.download('wordnet')
+nltk.download('stopwords')
+nltk.download('punkt')
+nltk.download('wordnet')
 
 st.markdown("<h1 style = 'color: #201658; text-align: center; font-family: TaHoma'>MENTAL HEALTH PERSONAL CHATBOT</h1>", unsafe_allow_html = True)
 st.markdown("<h4 style = 'margin: -30px; color: #FAFAFA; text-align: center; font-family: Copperplate'>Built By: ADEWALE JOLAYEMI</h4>",unsafe_allow_html = True)
